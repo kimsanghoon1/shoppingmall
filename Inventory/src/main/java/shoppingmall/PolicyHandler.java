@@ -23,6 +23,8 @@ public class PolicyHandler{
         shoppingmall.external.Order order =
            InventoryApplication.applicationContext.getBean(shoppingmall.external.OrderService.class)
            .getOrder(/** mapping value needed */);
+        
+        System.out.println("Log!!");
 
 
 
