@@ -20,9 +20,9 @@ public class PolicyHandler{
         System.out.println("\n\n##### listener UpdateStock : " + shipped.toJson() + "\n\n");
 
         // REST Request Sample
-        // shoppingmall.external.Order order =
-        //    InventoryApplication.applicationContext.getBean(shoppingmall.external.OrderService.class)
-        //    .getOrder(/** mapping value needed */);
+        shoppingmall.external.Order order =
+           InventoryApplication.applicationContext.getBean(shoppingmall.external.OrderService.class)
+           .getOrder(/** mapping value needed */);
 
 
 
