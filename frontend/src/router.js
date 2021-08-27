@@ -9,6 +9,8 @@ import OrderManager from "./components/OrderManager"
 
 import ProductManager from "./components/ProductManager"
 
+import InventoryManager from "./components/InventoryManager"
+
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -23,6 +25,12 @@ export default new Router({
                 path: '/products',
                 name: 'ProductManager',
                 component: ProductManager
+            },
+
+            {
+                path: '/inventories',
+                name: 'InventoryManager',
+                component: InventoryManager
             },
 
 
