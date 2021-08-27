@@ -22,6 +22,8 @@ public class PolicyHandler{
 
 
         // Sample Logic //
+        // Product product = new Product();
+        // productRepository.save(product);
         Product product = new Product();
         productRepository.save(product);
 
